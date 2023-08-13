@@ -88,6 +88,16 @@ The project structure follows a standard React application structure:
 
 To deploy the Jadoo Travel Agency landing page, you can follow the deployment instructions specific to your chosen hosting platform (e.g., Netlify, Vercel, GitHub Pages, etc.). Typically, you need to build the project and configure the hosting platform to serve the generated files.
 
+Docker
+
+`docker build -t tuanitpro/ladipage . --no-cache`
+
+`docker tag tuanitpro/ladipage:latest`
+
+`docker push tuanitpro/ladipage:latest`
+
+`docker run --publish 3000:3000 tuanitpro/ladipage`
+
 ## Credits
 
 This project was developed by [SignorDev](https://github.com/signor1). It was created as a sample landing page for a travel agency based on the Jadoo brand.
